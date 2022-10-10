@@ -5,9 +5,10 @@ body {
 
 @keyframes animate-from-left {
     from {
-        margin-right: 100%;
+        position:relative;
+        right:100%;
     } to {
-        margin-right: 0;
+        right:0;
     }
 }
 
