@@ -14,3 +14,13 @@ body {
 .animate-from-left {
     animation: animate-from-left 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
+
+.pop-on-hover {
+    transition-duration: 0.5;
+    transition-timing-function: cubic-bezier(.56,.41,.5,.85);
+}
+
+.pop-on-hover:hover {
+    font-size:150%;
+    text-shadow: 2px 2px #000;
+}
