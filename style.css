@@ -13,12 +13,12 @@ body {
 }
 
 .animate-from-left {
-    animation: animate-from-left 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    animation: animate-from-left 1s ease-in;
 }
 
 .pop-on-hover {
     transition-duration: 0.5;
-    transition-timing-function: cubic-bezier(.56,.41,.5,.85);
+    transition-timing-function: ease-in;;
 }
 
 .pop-on-hover:hover {
