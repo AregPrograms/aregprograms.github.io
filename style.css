@@ -2,3 +2,15 @@ body {
     background-color: #333;
     color: #FFF;
 }
+
+@keyframes animate-from-left {
+    from {
+        margin-right: 100%;
+    } to {
+        margin-right: 0;
+    }
+}
+
+.animate-from-left {
+    animation: animate-from-left 1s linear;
+}
