@@ -12,5 +12,5 @@ body {
 }
 
 .animate-from-left {
-    animation: animate-from-left 1s linear;
+    animation: animate-from-left 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
