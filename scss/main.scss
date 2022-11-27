@@ -1,0 +1,109 @@
+$primary: dodgerBlue;
+$secondary: #131313;
+$secondary-dark: #111;
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins";
+    background: $secondary;
+    height: calc(100% - 50px);
+}
+
+nav {
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: $secondary-dark;
+
+    & h3 {
+        margin-left: 15px;
+    }
+
+    & button {
+        font-family: "Poppins";
+        cursor: pointer;
+        margin-right: 15px;
+        background: $primary;
+        padding: 7px 10px;
+        border-radius: 5px;
+        border: 0;
+        color: white;
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 100%;
+    text-align: center;
+
+    & .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    & .social-container a {
+        color: grey;
+        text-decoration: none;
+    }
+
+    & .social-container {
+        font-size: 30px;
+        color: grey;
+    }
+
+    & .profile-pic {
+        width: 250px;
+        border-radius: 50px;
+        border: $secondary-dark solid 5px;
+        box-shadow: 0px 0px 20px 20px #010101;
+        margin-bottom: 15px;
+    }
+
+    & h1 {
+        color: white;
+        font-size: 50px;
+        margin: 0;
+    }
+
+    & h4 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: grey;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    & p {
+        color: white;
+        margin-top: 40px;
+        padding: 0 5px;
+    }
+}
+
+.vertical-line {
+    display: inline-block;
+    background: grey;
+    width: 3px;
+    height: 50%;
+    margin: 0;
+    border-radius: 25px;
+}
