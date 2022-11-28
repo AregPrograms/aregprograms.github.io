@@ -25,7 +25,34 @@ nav {
 nav h3 {
   margin-left: 15px;
 }
-nav a {
+nav .container:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .container:first-child a {
+  transition-duration: 250ms;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  color: grey;
+  text-decoration: none;
+}
+nav .container:first-child a i {
+  transition-duration: 250ms;
+  font-size: 0;
+}
+nav .container:first-child a:hover {
+  color: white;
+  gap: 7px;
+}
+nav .container:first-child a:hover i {
+  font-size: 100%;
+}
+nav .container:first-child .vertical-line {
+  height: 15px;
+}
+nav .container:last-child a {
   font-family: "Poppins";
   cursor: pointer;
   margin-right: 15px;
@@ -90,7 +117,7 @@ nav a {
   width: 40px;
   height: 40px;
   border: 5px solid #111;
-  border-radius: 25px;
+  border-radius: 30px;
 }
 .content h4 {
   display: flex;
