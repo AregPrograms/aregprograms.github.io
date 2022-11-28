@@ -8,24 +8,18 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
+
+    <script src="./js/jquery.js"></script>
+    <script>
+        $(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
   </head>
   <body>
     <script src="https://kit.fontawesome.com/fa7fdc7b9f.js" crossorigin="anonymous"></script>
 
-    <nav>
-        <div class="container">
-        <h3>AREG HARUTYUNYAN</h3>
-        <div class="vertical-line vertical-line"></div>
-        <a href=""><i class="fa-solid fa-paperclip"></i>Blog</a>
-        <div class="vertical-line vertical-line-small"></div>
-        <a href=""><i class="fa-solid fa-user"></i>Socials</a>
-        <div class="vertical-line vertical-line-small"></div>
-        <a href=""><i class="fa-solid fa-computer"></i></i>Projects</a>
-        </div>
-        <div class="container">
-            <b><a href="">ABOUT</a></b>
-        </div>
-    </nav>
+    <div id="navbar-placeholder"></div>
     
     <div class="content">
         <img src="https://assets.codepen.io/9149617/internal/avatars/users/default.png?format=auto&version=1668047338&width=500&height=500" class="profile-pic">
@@ -44,7 +38,6 @@
     
         <p>I started learning how to program at 7 years old, now I know 7 programming languages.
             <br>
-            Recently started web development.
         </p>
     
         <div class="socials">
