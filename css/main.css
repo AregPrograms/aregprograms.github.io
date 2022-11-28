@@ -52,6 +52,9 @@ nav .container:first-child a:hover i {
 nav .container:first-child .vertical-line {
   height: 15px;
 }
+nav .container:first-child .vertical-line-small {
+  height: 10px;
+}
 nav .container:last-child a {
   font-family: "Poppins";
   cursor: pointer;
