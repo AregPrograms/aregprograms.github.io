@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(45deg, #111, #000);
+}
+
 .content h1 {
   font-size: 7em;
   margin-bottom: 0;

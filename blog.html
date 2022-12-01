@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AregPrograms</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/blog.css" />
+
+    <script src="./js/jquery.js"></script>
+    <script>
+        $(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
+  </head>
+  <body>
+    <script src="https://kit.fontawesome.com/fa7fdc7b9f.js" crossorigin="anonymous"></script>
+
+    <div id="navbar-placeholder"></div>
+    
+    <div class="content">
+        <h1>Blog</h1>
+        <h4>Areg Harutyunyan</h4>
+        <hr>
+
+        <div class="posts">
+            <a href="./posts/first-post">
+            <div class="post">
+                <div class="info-container">
+                    <h3>First Post!</h3>
+                    <hr class="info-divider">
+                    <p>Hey everyone! This i...</p>
+                    <br>
+                    <p class="footer">Dec. 1, 2022</p>
+                </div>
+    
+                <img src="https://unsplash.it/500/500" alt="">
+            </div>
+            </a>
+        </div>
+    </div>
+  </body>
+</html>
