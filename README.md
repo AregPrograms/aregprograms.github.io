@@ -1,2 +1,2 @@
 # about me
-A simple website, about me, for a fun project.
+A simple website, about me.
